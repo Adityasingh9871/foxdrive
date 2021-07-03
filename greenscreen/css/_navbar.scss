@@ -1,0 +1,76 @@
+$w:100vw;
+.navbar{
+    width: $w;
+    height: 15vh;
+    background-color:rgb(13, 13, 51);
+    opacity: .9;
+    position: relative;
+    margin-bottom: 4rem;
+    overflow: hidden;
+
+    .tag{                //heading  or icon of webpage
+        
+        position: absolute;
+        top: 3vh;
+        left: 5vw;
+        color: white;
+        font-size: 50px;
+    }
+
+    
+
+    @import "searchbar";
+    @import "btn1";
+    
+    .btn1-explore{
+        font-size: 30px;
+        position: absolute;
+        top: 4.2vh;
+        left: 60vw;
+        
+        
+    }
+
+    .btn-upload{
+        font-size: 30px;
+        position: absolute;
+        top: 4.2vh;
+        left: 68vw;
+    }
+
+    .btn-brushes{
+        font-size: 30px;
+        position: absolute;
+        top: 4.2vh;
+        left: 76vw;
+    }
+
+    .btn-login{
+        font-size: 30px;
+        position: absolute;
+        top: 4.2vh;
+        left: 88vw;
+
+    }
+    
+    
+}
+
+.navbar::before{
+    content: '';
+    height: 500%;
+    width: 40%;
+    background-color: rgb(48, 240, 48);
+    opacity: .6;
+    position: absolute;
+    top: -150%;
+    transform: rotate(-30deg);
+    overflow: hidden;
+    transition: all ease .7s;
+
+  
+}
+
+.navbar:hover::before{
+    width: 45%;
+}

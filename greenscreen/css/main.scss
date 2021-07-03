@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+
+
+    .container{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-color: rgb(255, 255, 255);
+        padding: 0;
+
+        @import "login";
+        @import "navbar";
+        @import "features";
+        @import "cars";
+        @import "app";
+        
+        // @import "filter-box";
+        
+       
+    }
+    @import "footer2";
+}

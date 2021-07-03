@@ -1,0 +1,21 @@
+.cars{
+    background-color: rgb(238, 220, 220);
+    //border: solid red;
+    position: absolute;
+    top: 95vh;
+    width: 100vw;
+    height: 110vh;
+    overflow: hidden;
+
+    #myCarousel{
+        height: 100vh;
+
+            .carousel-inner{
+                img{
+                    width: 100vw;
+                    
+                }
+                
+            }
+       }
+}
