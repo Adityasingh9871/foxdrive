@@ -3,9 +3,27 @@
     width: 100vw;
     height: 50vh;
     background-color: aqua;
-    top: 205vh;
+    top: 265vh;
     background-image: url(/greenscreen/images/app.webp);
     background-size: cover;
+
+        .tagline{
+            width: 40vw;
+            font-size: 8vh;
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            left: 2vw;
+            top: 4vh;
+        }
+
+        img{
+            width: 15vw;
+            height: 10vh;
+            position: absolute;
+            right: 20vw;
+            top: 10vh;
+            
+        }
    
     
 }
