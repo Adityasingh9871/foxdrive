@@ -22,34 +22,41 @@ $w:100vw;
     //@import "searchbar";
     @import "btn1";
     
-    .btn1-explore{
+    .btn1-hire1{
         font-size: 30px;
         position: absolute;
         top: 4.2vh;
-        left: 60vw;
+        left: 25vw;
         
         
     }
 
-    .btn-upload{
+    .btn-hire2{
         font-size: 30px;
         position: absolute;
         top: 4.2vh;
-        left: 68vw;
+        left: 40vw;
     }
 
-    .btn-brushes{
+    .btn-sub{
         font-size: 30px;
         position: absolute;
         top: 4.2vh;
-        left: 76vw;
+        left: 55vw;
+    }
+
+    .btn-app{
+        font-size: 30px;
+        position: absolute;
+        top: 4.2vh;
+        left: 70vw;
     }
 
     .btn-login{
         font-size: 30px;
         position: absolute;
         top: 4.2vh;
-        left: 88vw;
+        left: 85vw;
 
     }
     

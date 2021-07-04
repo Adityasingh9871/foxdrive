@@ -30,16 +30,23 @@
             flex-direction: column;
             flex-wrap: wrap;
             padding: 1vw;
+            box-shadow: 0px 0px 10px;
+            border-radius: 5px;
 
 
                 .box{
                     width: 10vw;
                     height: 20vh;
-                    //border: solid blue;
+                    border-radius: 2px;
+                    box-shadow: 0px 0px 5px;
                     margin: 10px;
                     transition: all ease .5s ;
-                    background-color: gray;
+                    background-color: rgb(214, 206, 206);
                     background-size: cover;
+                }
+
+                .box:hover{
+                    transform: scale(1.2);
                 }
 
                 

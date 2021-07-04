@@ -152,32 +152,39 @@ body .container .navbar #btn1:hover::after {
   transform: scale(1);
 }
 
-body .container .navbar .btn1-explore {
+body .container .navbar .btn1-hire1 {
   font-size: 30px;
   position: absolute;
   top: 4.2vh;
-  left: 60vw;
+  left: 25vw;
 }
 
-body .container .navbar .btn-upload {
+body .container .navbar .btn-hire2 {
   font-size: 30px;
   position: absolute;
   top: 4.2vh;
-  left: 68vw;
+  left: 40vw;
 }
 
-body .container .navbar .btn-brushes {
+body .container .navbar .btn-sub {
   font-size: 30px;
   position: absolute;
   top: 4.2vh;
-  left: 76vw;
+  left: 55vw;
+}
+
+body .container .navbar .btn-app {
+  font-size: 30px;
+  position: absolute;
+  top: 4.2vh;
+  left: 70vw;
 }
 
 body .container .navbar .btn-login {
   font-size: 30px;
   position: absolute;
   top: 4.2vh;
-  left: 88vw;
+  left: 85vw;
 }
 
 body .container .navbar::before {
@@ -290,16 +297,27 @@ body .container .features .container1 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 1vw;
+  -webkit-box-shadow: 0px 0px 10px;
+          box-shadow: 0px 0px 10px;
+  border-radius: 5px;
 }
 
 body .container .features .container1 .box {
   width: 10vw;
   height: 20vh;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 0px 5px;
+          box-shadow: 0px 0px 5px;
   margin: 10px;
   -webkit-transition: all ease .5s;
   transition: all ease .5s;
-  background-color: gray;
+  background-color: #d6cece;
   background-size: cover;
+}
+
+body .container .features .container1 .box:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 body .container .cars {
